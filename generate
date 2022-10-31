@@ -1,11 +1,6 @@
 #!/bin/bash
 
 ( cd jdk
-    bash configure --with-jtreg=../../jtreg/build/images/jtreg/
-    if [ $? -ne 0 ]; then
-        echo "Error during configuration"
-        exit 1
-    fi
     make images
     if [ $? -ne 0 ]; then
         echo "Error during build"

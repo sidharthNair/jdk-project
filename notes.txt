@@ -1,0 +1,6 @@
+jdk/src/jdk.compiler/share/classes/com/sun/tools/javac/Main.java:61
+	This is a programattic interface to call javac. Start here to go down the rabbit hole of figuring out the compilation process
+
+jdk/src/jdk.compiler/share/classes/com/sun/tools/javac/main/JavaCompiler.java:3686
+	This is where parsing a file actually starts
+	
