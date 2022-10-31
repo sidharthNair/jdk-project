@@ -1,6 +1,5 @@
 jdk/src/jdk.compiler/share/classes/com/sun/tools/javac/Main.java:61
 	This is a programattic interface to call javac. Start here to go down the rabbit hole of figuring out the compilation process
 
-jdk/src/jdk.compiler/share/classes/com/sun/tools/javac/main/JavaCompiler.java:3686
-	This is where parsing a file actually starts
-	
+jdk/src/jdk.compiler/share/classes/com/sun/tools/javac/parser/JavacParser.java:3686
+	This is where parsing a file actually starts. The methods in this file correspond to parsing different tokens. For example, line 756 parses an expression. Line 945 has the definition for ternary operators. This is very similar to what I will be implementing so this should be a good reference to look at.
