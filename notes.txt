@@ -3,3 +3,6 @@ jdk/src/jdk.compiler/share/classes/com/sun/tools/javac/Main.java:61
 
 jdk/src/jdk.compiler/share/classes/com/sun/tools/javac/parser/JavacParser.java:3686
 	This is where parsing a file actually starts. The methods in this file correspond to parsing different tokens. For example, line 756 parses an expression. Line 945 has the definition for ternary operators. This is very similar to what I will be implementing so this should be a good reference to look at.
+	
+jdk/src/jdk.compiler/share/classes/com/sun/tools/javac/parser/Tokens.java
+	Contains token definitions. Should be able to add new ones here and then use in the parser for the new constructs.
